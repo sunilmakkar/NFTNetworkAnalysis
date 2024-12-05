@@ -57,10 +57,20 @@ pip install pandas networkx pyvis
 - **Top Projects and Owners**: Analyzes the top NFT projects based on transaction volume and identifies the top wallet owners.
 - **Interactive Exploration**: The visualization is interactive, allowing you to explore the network by zooming, panning, and clicking on nodes to view more details.
 
-## Customizing the Script
+## Improvements
 
-- **Adjusting the number of projects or owners**: You can change the number of projects or owners analyzed by modifying the `LIMIT` clause in the SQL queries within the script.
-- **Graph Physics**: The `network_graph.set_options('{"physics": {"enabled": false}}')` line disables physics in the graph to prevent nodes from shaking or moving. You can enable it by changing `false` to `true`.
+If I had more time, here are a few improvements and additional analyses I would perform:
+
+1. **Data Exploration**:
+   - I would use a Jupyter notebook to perform exploratory data analysis (EDA) to better understand the distribution of NFT ownership. This could help determine if a small number of people own the majority of NFTs or if ownership is more evenly distributed.
+
+2. **Ownership Distribution**:
+   - I would analyze the percentage of wallets that own the top 10% of NFTs by value or number. This would provide insight into how concentrated the ownership of valuable NFTs is in the network.
+
+3. **Transaction Volume Analysis**:
+   - A deeper analysis of the transaction volume could be performed to identify trends or outliers in NFT purchases or sales, helping to visualize the market dynamics over time.
+
+These analyses could help improve the insights gained from this project and provide a more detailed understanding of the NFT ecosystem.
 
 ## License
 
