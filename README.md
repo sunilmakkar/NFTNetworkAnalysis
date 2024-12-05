@@ -29,6 +29,7 @@ You can install the required libraries by running the following command:
 
 ```bash
 pip install pandas networkx pyvis
+```
 
 ## How to Run the Script
 
